@@ -76,7 +76,7 @@ function generateImagesArray(interval) {
     let index;
     while (arr.length > 0) {
         index = getRandomInt(arr.length);
-        images.push(`/images/${interval}/${addZero(arr[index])}.jpg`);
+        images.push(`images/${interval}/${addZero(arr[index])}.jpg`);
         arr.splice(index, 1);
     }
 }
