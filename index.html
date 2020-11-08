@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/images/icons/timer-32x32.png" type="image/png" sizes="32x32">
+    <link rel="icon" href="/images/icons/timer-16x16.png" type="image/png" sizes="16x16">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/owfont-regular.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Momentum</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header-section">
+            <button class="update-image-btn">
+                <img class="update-image-icon" src="/images/icons/refresh.svg" alt="upd">
+            </button>
+            <div class="weather-card">
+                <div class="city" contenteditable="true">Minsk</div>
+                <div class="weather-item main-weather-info">
+                    <i class="weather-item weather-icon owf"></i>
+                    <div class="weather-item temperature"></div>
+                </div>
+                <div class="weather-item weather-description"></div>
+                <div class="weather-item humidity"></div>
+                <div class="weather-item wind"></div>
+                <div class="sun-time">
+                    <div class="weather-item sunrise"></div>
+                    <img class="sun-icon" src="/images/icons/day-and-night.png" alt="sun">
+                    <div class="weather-item sunset"></div>
+                </div>
+            </div>
+        </header>
+            
+        <div class="main-info">
+            <div class="date-info">
+                <time class="time"></time>
+                <h3 class="date">Friday, 6 November</h3>
+            </div>
+            
+            <h1 class="full-greeting">
+                <span class="greeting"></span>
+                <span class="name" contenteditable="true"></span>
+            </h1>    
+
+            <h2>What Is Your Main Focus For Today<hr></h2>
+            <h2 class="focus" contenteditable="true"></h2>  
+        </div>
+        <figure class="quote-info">
+            <button class="update-quote-btn">
+                <img class="update-quote-icon" src="/images/icons/refresh.svg" alt="upd">
+            </button>  
+            <blockquote class="blockquote"></blockquote>
+            <figcaption class="figcaption"></figcaption>
+        </figure>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
